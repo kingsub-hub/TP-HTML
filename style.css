@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+  }
+  
+  .cv-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: #f3f3f3;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .sidebar {
+    width: 30%;
+    background-color: rgba(192, 27, 27, 0.534);
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+
+  .profile-pic {
+    width: 250px;          /* Taille de l’image (tu peux ajuster selon ton besoin) */
+    height: 250px;
+    object-fit: cover;     /* Garde le bon cadrage même si l'image est rectangulaire */
+    border-radius: 100%;    /* Rend la photo parfaitement ronde */
+    display: block;
+    margin: 0 auto;        /* Centre l'image horizontalement */
+  }
+  
+  .sidebar h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+    color: #eaebec;
+  }
+  
+  .sidebar h2 {
+    font-size: 16px;
+    margin-top: 20px;
+    border-bottom: 1px solid #bbb;
+    color: #e6eef7;
+  }
+  
+  .sidebar p, .sidebar ul {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #003366;
+  }
+  
+  .sidebar ul {
+    list-style: square inside;
+    padding-left: 0;
+  }
+  
+  .main-content {
+    width: 70%;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  
+  .main-content h2 {
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+    margin-top: 0;
+    color: #003366;
+  }
+  
+  .main-content h3 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+    color: #e9ebec;
+  }
+  
+  .dates {
+    float: right;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .main-content ul {
+    margin-top: 5px;
+    margin-left: 20px;
+    list-style-type: disc;
+  }
+  
+  .main-content p {
+    font-size: 14px;
+  }
+  /* Conteneur principal du CV (feuille blanche) */
+.cv-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: rgb(213, 247, 237);
+    box-shadow: 0 0 10px rgba(48, 47, 47, 0.1);
+    position: relative;
+    padding: 60px 20px; /* espace pour les bandes décoratives */
+    box-sizing: border-box;
+  }
+  
+  /* Bande bleue en haut de la feuille blanche */
+  .decorative-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 50px;
+    background-color: #d6e8fa;
+    border-left: 30px;
+    border-right: 0px;
+  }
+  
+  /* Bande bleue en bas de la feuille blanche */
+  .decorative-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60%;
+    height: 50px;
+    background-color: #dfe7f0;
+    border-left: 0px;
+    border-right: 50px;
+  }
+
+  img{
+    width: 150px;
+    height: 150px;
+      }
